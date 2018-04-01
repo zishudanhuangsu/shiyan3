@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shiyan3.Main3Activity">
+   <LinearLayout
+       android:background="#EAADEA"
+       android:orientation="vertical"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       tools:layout_constraintTop_creator="1"
+       tools:layout_constraintRight_creator="1"
+       tools:layout_constraintBottom_creator="1"
+       android:layout_marginStart="8dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_marginEnd="8dp"
+       app:layout_constraintRight_toRightOf="parent"
+       android:layout_marginTop="8dp"
+       tools:layout_constraintLeft_creator="1"
+       android:layout_marginBottom="8dp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginLeft="8dp"
+       android:layout_marginRight="8dp">
+       <TableLayout
+
+           android:stretchColumns = "1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:layout_constraintTop_creator="1"
+           tools:layout_constraintRight_creator="1"
+           tools:layout_constraintBottom_creator="1"
+           android:layout_marginStart="8dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:layout_marginEnd="8dp"
+           app:layout_constraintRight_toRightOf="parent"
+           android:layout_marginTop="8dp"
+           tools:layout_constraintLeft_creator="1"
+           android:layout_marginBottom="8dp"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="8dp"
+           app:layout_constraintHorizontal_bias="0.0"
+           app:layout_constraintVertical_bias="0.0">
+
+           <TableRow>
+               <TextView
+                   android:gravity="left"
+                   android:text="Open"/>
+               <TextView
+                   android:gravity="right"
+                   android:text="Ctrl+O"/>
+           </TableRow>
+           <TableRow>
+               <TextView
+                   android:gravity="left"
+                   android:text="Save"/>
+               <TextView
+                   android:gravity="right"
+                   android:text="Ctrl+Shift+S"/>
+           </TableRow>
+           <TableRow>
+               <TextView
+                   android:gravity="left"
+                   android:text="Save As"/>
+               <TextView
+                   android:gravity="right"
+                   android:text="Ctrl+Shift+S"/>
+           </TableRow>
+
+       </TableLayout>
+       <TableLayout
+
+           android:stretchColumns = "2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:layout_constraintTop_creator="1"
+           tools:layout_constraintRight_creator="1"
+           android:layout_marginStart="8dp"
+           android:layout_marginEnd="8dp"
+           app:layout_constraintRight_toRightOf="parent"
+           tools:layout_constraintLeft_creator="1"
+           app:layout_constraintLeft_toLeftOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           android:layout_marginLeft="8dp"
+           android:layout_marginRight="8dp">
+           <TableRow>
+               <TextView
+                   android:gravity="left"
+                   android:text="X"/>
+               <TextView
+
+                   android:text="Import"/>
+               <TextView
+                   android:gravity="right"
+                   android:text=""/>
+           </TableRow>
+           <TableRow>
+               <TextView
+                   android:gravity="left"
+                   android:text="X"/>
+               <TextView
+
+                   android:text="Export"/>
+               <TextView
+                   android:gravity="right"
+                   android:text="Ctrl+E"/>
+           </TableRow>
+
+
+       </TableLayout>
+       <TableLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent">
+           <TableRow>
+               <TextView
+
+                   android:text="Quit"/>
+           </TableRow>
+       </TableLayout>
+   </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
